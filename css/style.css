@@ -614,6 +614,7 @@ header label {
   margin-left: 2rem;
 }
 .archive-item-link {
+  font-family: Arial;
   display: inline-block;
   text-decoration: none;
   overflow: hidden;
@@ -724,6 +725,7 @@ header label {
 .post-wrap .post-title {
   font-size: 2em;
   line-height: 1.5em;
+  font-family: Arial;
 }
 .post-wrap .post-meta {
   color: rgba(85,85,85,0.529) !important;
@@ -746,6 +748,7 @@ header label {
 .post-content {
   padding-top: 2rem;
   text-align: justify;
+  font-family: Arial;
 }
 .post-content h2,
 .post-content h3,
