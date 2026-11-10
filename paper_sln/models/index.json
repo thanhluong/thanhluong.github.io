@@ -1,0 +1,62 @@
+[
+ {
+  "name": "orig_sp_h4",
+  "label": "Paper replication \u00b7 shortest \u00b7 2 layers \u00d7 4 heads",
+  "format": "orig",
+  "tasks": "sp",
+  "n_layers": 2,
+  "n_heads": 4,
+  "mb": 25.3,
+  "step": 100000
+ },
+ {
+  "name": "orig_sp_L1",
+  "label": "Paper replication \u00b7 shortest \u00b7 1 layer \u00d7 4 heads",
+  "format": "orig",
+  "tasks": "sp",
+  "n_layers": 1,
+  "n_heads": 4,
+  "mb": 12.7,
+  "step": 40000
+ },
+ {
+  "name": "new_joint_h4",
+  "label": "Extension \u00b7 shortest + longest (<q1>/<q2>) \u00b7 2L \u00d7 4H",
+  "format": "new",
+  "tasks": "both",
+  "n_layers": 2,
+  "n_heads": 4,
+  "mb": 25.3,
+  "step": 100000
+ },
+ {
+  "name": "new_sp_h4",
+  "label": "Extension format \u00b7 shortest only \u00b7 2L \u00d7 4H",
+  "format": "new",
+  "tasks": "sp",
+  "n_layers": 2,
+  "n_heads": 4,
+  "mb": 25.3,
+  "step": 100000
+ },
+ {
+  "name": "new_lp_h4",
+  "label": "Extension format \u00b7 longest only \u00b7 2L \u00d7 4H",
+  "format": "new",
+  "tasks": "lp",
+  "n_layers": 2,
+  "n_heads": 4,
+  "mb": 25.3,
+  "step": 100000
+ },
+ {
+  "name": "new_joint_h8",
+  "label": "Extension \u00b7 shortest + longest \u00b7 2L \u00d7 8H",
+  "format": "new",
+  "tasks": "both",
+  "n_layers": 2,
+  "n_heads": 8,
+  "mb": 25.3,
+  "step": 40000
+ }
+]
